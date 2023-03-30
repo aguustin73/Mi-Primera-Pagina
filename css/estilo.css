@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+/*
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Coiny', cursive;
+*/
+*{
+    box-sizing: border-box
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24pt;
+
+}
+img{
+    width: 100%;
+}
+.logo{
+    width: 20%;
+}
+#cabecera{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: 400;
+    text-decoration: none;
+    color:gray;
+    padding-right:50px ;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+h1{
+    font-weight: 700;
+    font-size: 48pt;
+    display: block;
+ line-height: 120%;
+
+}
+.contendor1{
+    display: flex;
+    flex-direction: column;
+
+}
+span{
+    font-family: 'Coiny', cursive;
+    font-size: 88pt;
+}
+#subtitulo{
+
+    background-color: #fcee21;
+   font-size: 20pt;
+   width: 85%;
+}
+
+.imagenes{
+    width: 50%;
+    margin-top: 30px;
+}
+#img{
+    display: flex;
+
+}
+#texto{
+    width: 50%;
+}
+.sub{
+    font-size: 28pt;
+    background-color: #fcee21; 
+ display: inline;
+
+    
+   
+}
+#texto2{
+    font-size: 21pt;
+    display: flex;
+}
+main{
+    display: flex;
+    border-top: solid gray;
+    border-bottom: solid gray;
+    padding-bottom: 100px;
+}
+h5{
+    font-size: 41pt;
+    font-weight: 700;
+
+}
+#list{
+   width: 50%;
+   padding-left: 100px;
+   line-height: 110%;
+   font-size: 22pt;
+  
+}
+#foco{
+    padding-top: 50px;
+}
+.sub2{
+    background-color: #fcee21;  
+    width: 80%;
+    text-align: center;
+    font-size: 26pt;
+}
+.tittleContact{
+    font-weight: 700;
+    font-size: 51pt;
+    background-color: black;
+    color: white;
+    display: inline;
+    
+    
+    
+  
+}
+#contenedor2{
+    width: 50%;
+}
+.asterico{
+color: red;
+font-size: 15pt;
+}
+#form{
+    font-weight: 700;
+    font-size: 20pt;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 100px;
+   
+}
+#contacto{
+    display: flex;
+    
+}
+input{
+    height: 40px;
+    width: 70%;
+}
+#botonEnviar{
+    background-color: black;
+    color: white;
+    height: 30px;
+   width: auto;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 700;
+   font-size: 14pt;
+   
+
+}
+#botonBorrar{
+    background-color: black;
+    color: white;
+    height: 30px;
+   width: auto;
+   margin-left: 230px;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 700;
+   font-size: 14pt;
+}
+#botones{
+    
+    width: 100%;
+    
+}
+textarea{
+    resize: none;
+}
+#redes img{
+    width: 25%;
+
+}
+#redes{
+    width: 100%;  
+      display: flex;
+     align-items:center;
+     margin-top: 50px;
+}
+#nav2{
+width: 100%;
+
+}
+.icon{
+    width: 50%;
+}
+h4{
+    color: gray;
+}
+footer{
+    background-color: #fcee21;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    
+
+}
+#email{
+    font-size: 15pt;
+    font-weight: 400;
+   
+
+}
